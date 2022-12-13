@@ -15,14 +15,20 @@
 # yarn
 $ yarn install
 
-# nuxt dev + electron start
+# nuxt dev + electron browser
 $ yarn dev
+# or
+# nuxt dev only
+$ yarn nuxt:dev
 
-# nuxt build (for before packaging)
-$ nuxt:build
+# nuxt build (for before electron:packing)
+$ yarn nuxt:build
 
-# build for production
-$ yarn pkg # for building environment mac+win
+# electron dev
+$ yarn electron:start
+
+# packing for production
+$ yarn pkg # for mac+win
 $ yarn pkg:mac
 $ yarn pkg:win # not tried.
 
