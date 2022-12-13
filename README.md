@@ -1,5 +1,9 @@
 # Nuxt3 ssr + Electron
 
+### docs
+
+http://blog.rettuce.com/nuxt3/nuxt3-ssr-electron/
+
 ### modules
 
 ```bash
